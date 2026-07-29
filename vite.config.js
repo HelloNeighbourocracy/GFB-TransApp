@@ -5,7 +5,7 @@ import { VitePWA } from 'vite-plugin-pwa'
 // If you deploy to GitHub Pages at https://<user>.github.io/<repo>/,
 // set base to '/<repo>/'. For a custom domain or Vercel/Netlify, keep it '/'.
 export default defineConfig({
-  base: '/',
+  base: '/GFB-TransApp',
   plugins: [
     react(),
     VitePWA({
